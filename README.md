@@ -12,7 +12,7 @@ To see the final launched version of the project click the reference link above.
 
 * Learned how to **structure code** and keep it organized. Used a three modular build approach (**UI module**, **budget module** and **global module**), where:
 
-    * **UI module** includes code related to User Interface manipulations and decides what code should be displayed to the user. 
+    * **UI module** includes code related to User Interface manipulations and decides what code to display to the user. 
     
     * **Budget module** does calculations and humbers shuffling behind the scenes.
     
