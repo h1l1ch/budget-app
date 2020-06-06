@@ -8,7 +8,7 @@ My first project, built with HTML, CSS and JavaScript ES5. Budget app accepts nu
 To see the final launched version of the project click the reference link above. In case you would like to launch the project onto your machine simply download the files and open index.html. 
 
 
-## Summing Up 
+## What I've learned 
 
 * Learned how to **structure code** and keep it organized. Used a three modular build approach (**UI module**, **budget module** and **global module**), where:
 
