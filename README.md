@@ -18,7 +18,7 @@ To see the final launched version of the project click the reference link above.
     
     * **Global module** is the intermediate module establishing the connection between UI and budget modules. 
 
-* As the code was written with ES5 version of JavaScript all three modules were constructed in a **single budget-app.js file**. 
+* As the code was written with ES5 version of JavaScript all three modules were constructed in a **single file** called "budget-app.js". 
 
 * While doing this project I got familiar with **four core principles** of Object Oriented Programming such as:
 
