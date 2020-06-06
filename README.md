@@ -18,7 +18,7 @@ To see the final launched version of the project click the reference link above.
 
 * As the code was written with ES5 version of JavaScript all three modules were constructed in a **single budget-app.js file**. 
 
-* While doing this project I got familiar with ** four core principles* of Object Oriented Programming such as:
+* While doing this project I got familiar with **four core principles** of Object Oriented Programming such as:
 
     * **Encapsulation** expressed by *Immediately Invoked Function Expressions*. 
       ```
@@ -34,7 +34,7 @@ To see the final launched version of the project click the reference link above.
       ```
       Only "returned" code can be publically accessed thank to the closures.
       ```
-         ...return {
+      ...return {
         init: function () {
             setupEventListeners();
             UIMod.displayDate();
@@ -67,7 +67,7 @@ To see the final launched version of the project click the reference link above.
       
     * Finally, **polymorphism** expresses in combining functions with objects.
       
-      displayBudget() method execution varies depending on the passing "obj" argument. 
+      displayBudget() method determines the type of "obj" argument. 
       ```
       displayBudget: function (obj) {
             var type;
@@ -76,17 +76,12 @@ To see the final launched version of the project click the reference link above.
             } else if (obj.budget < 0){
                 type = 'exp';
             }
-
+      ```
+      depending on the obj's "budget" property further procedure changes.
+      ```
             document.querySelector(DOMstrings.budgetTotal).textContent = formatNumber(obj.budget, type);
             document.querySelector(DOMstrings.incTotal).textContent = formatNumber(obj.totalInc, 'inc');
             document.querySelector(DOMstrings.expTotal).textContent = formatNumber(obj.totalExp, 'exp');
-
-            if (obj.percentage > 0) {
-                document.querySelector(DOMstrings.percTotal).textContent = obj.percentage + '%';
-            } else if (obj.percentage === -1) {
-                document.querySelector(DOMstrings.percTotal).textContent = '---';
-            } 
-        },
       ```
       
 * Learned how to manipulate HTML objects and CSS characteristic using advanced JavaScript. 
