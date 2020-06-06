@@ -2,9 +2,11 @@
 
 My first project, built with HTML, CSS and JavaScript ES5. Budget accepts submitted values of **income** and **expense** types. Then automatically calculates **total budget**. Simple as that :)
 
+
 ## Start
 
 To see the final launched version of the project click the reference link above. In case you would like to launch the project onto your machine simply download the files and open index.html. 
+
 
 ## Summing Up 
 
@@ -46,7 +48,7 @@ To see the final launched version of the project click the reference link above.
       }})(budgetModule, UIModule);
       ```
     
-    * **Inheritance** expressed by *constructors* and . All constructor instances inherit all properties from *constructor prototypes*.
+    * **Inheritance** expressed by *object constructors* and *constructor prototypes*. All constructor instances inherit all properties from its prototypes.
     
       Example of "Expense" type *constructor*. 
       ```
@@ -56,7 +58,7 @@ To see the final launched version of the project click the reference link above.
         this.value = value
       };
       ```
-      getPercentage() is one of *constructor prototypes* methods. Instantly gets inherited by all instances created via "Expense"             constructor.
+      getPercentage() is one of *constructor prototype* methods. Method gets inherited by all instances created via "Expense"             constructor.
       ```
       Expense.prototype.getPercentage = function () {
         return this.percentage;
@@ -87,12 +89,14 @@ To see the final launched version of the project click the reference link above.
         },
       ```
       
-* Learned how to manipulate HTML objects and CSS characteristic using advanced JavaScript.        
+* Learned how to manipulate HTML objects and CSS characteristic using advanced JavaScript. 
+
 
 ## Authors
 
 * **Philip Chislou** - *Final work* - [Philip Chislou](https://github.com/h1l1ch).
 * **Jonas Schmedtmann** - *Template* - [Jonas Schmedtmann](https://github.com/jonasschmedtmann).
+
 
 ## Acknowledgments
 
