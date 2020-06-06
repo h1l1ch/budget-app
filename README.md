@@ -21,18 +21,22 @@ To see the final launched version of the project click the reference link above.
 * While doing this project I got familiar with **four core principles** of Object Oriented Programming such as:
 
     * **Encapsulation** expressed by *Immediately Invoked Function Expressions*. 
+    
+      *Function invokes itself*.
       ```
          (function (budgetMod, UIMod) {...
          
-         ...})(budgetModule, UIModule) // function invokes itself.
+         ...})(budgetModule, UIModule)
       ```
+      
     * **Abstraction**. To make code easy to use and reveal only necessary parts all necessary code is returned and can be publically           accessed thank to the *closures*.
     
-      Encapsulated function gets initally called.
+      *Encapsulated function gets initally called.*
       ```
          (function (budgetMod, UIMod) {... 
       ```
-      Only "returned" code can be publically accessed thank to the closures.
+      
+      *Only "returned" code can be publically accessed thank to the closures.*
       ```
       ...return {
         init: function () {
@@ -50,7 +54,7 @@ To see the final launched version of the project click the reference link above.
     
     * **Inheritance** expressed by *object constructors* and *constructor prototypes*. All constructor instances inherit all properties from its prototypes.
     
-      Example of "Expense" type *constructor*. 
+      *Example of "Expense" type *constructor*.* 
       ```
       var Expense = function (id, desc, value) {
         this.id = id;
@@ -58,7 +62,7 @@ To see the final launched version of the project click the reference link above.
         this.value = value
       };
       ```
-      getPercentage() is one of *constructor prototype* methods. Method gets inherited by all instances created via "Expense"             constructor.
+      *getPercentage() is one of *constructor prototype* methods. Method gets inherited by all instances created via "Expense"             constructor.*
       ```
       Expense.prototype.getPercentage = function () {
         return this.percentage;
@@ -67,7 +71,7 @@ To see the final launched version of the project click the reference link above.
       
     * Finally, **polymorphism** expresses in combining functions with objects.
       
-      displayBudget() method determines the type of "obj" argument. 
+      *displayBudget() method determines the type of "obj" argument.* 
       ```
       displayBudget: function (obj) {
             var type;
@@ -77,14 +81,13 @@ To see the final launched version of the project click the reference link above.
                 type = 'exp';
             }
       ```
-      depending on the obj's "budget" property further procedure changes.
+      
+      *depending on the obj's "budget" property further procedure changes.*
       ```
             document.querySelector(DOMstrings.budgetTotal).textContent = formatNumber(obj.budget, type);
             document.querySelector(DOMstrings.incTotal).textContent = formatNumber(obj.totalInc, 'inc');
             document.querySelector(DOMstrings.expTotal).textContent = formatNumber(obj.totalExp, 'exp');
       ```
-      
-* Learned how to manipulate HTML objects and CSS characteristic using advanced JavaScript. 
 
 
 ## Authors
