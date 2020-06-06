@@ -1,6 +1,6 @@
 # Budget App ES5
 
-My first project, built with HTML, CSS and JavaScript ES5. Budget accepts submitted values of **income** and **expense** types. Then automatically calculates **total budget**. Simple as that :)
+My first project, built with HTML, CSS and JavaScript ES5. Budget app accepts number elements of **income** and **expense** types. Then automatically calculates **total budget**. Simple as that :)
 
 
 ## Start
