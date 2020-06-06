@@ -12,8 +12,10 @@ To see the final launched version of the project click the reference link above.
 
 * Learned how to **structure code** and keep it organized. Used a three modular build approach (**UI module**, **budget module** and **global module**), where:
 
-    * **UI module** is code related to User Interface manipulations and decides what code should be displayed to the user. 
+    * **UI module** includes code related to User Interface manipulations and decides what code should be displayed to the user. 
+    
     * **Budget module** does calculations and humbers shuffling behind the scenes.
+    
     * **Global module** is the intermediate module establishing the connection between UI and budget modules. 
 
 * As the code was written with ES5 version of JavaScript all three modules were constructed in a **single budget-app.js file**. 
