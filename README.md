@@ -9,7 +9,7 @@ My first project, built with HTML, CSS and JavaScript ES5. Budget app accepts nu
 
 * There are **three input fields**: *description* (your comments), *value* (how much money), and *type* (either expenses or income). 
 
-* **Click "submit" button** or **press enter**.
+* Click **"submit"** button or **press enter**.
 
 * App **calculates**: *total budget*, *expenses percentage* and both *total income & expenses*.
 
@@ -22,24 +22,24 @@ My first project, built with HTML, CSS and JavaScript ES5. Budget app accepts nu
 
 ## Project structure
 
-* **/budget-app.js** single JS file. Includes all three modules and is written in JavaScript ES5. 
+* **/budget-app.js** - single JS file. Includes all three modules and is written in JavaScript ES5. 
 
-* **/index.html** single HTML file.  
+* **/index.html** - single HTML file.  
 
-* **/style.css** single CSS file.
+* **/style.css** - single CSS file.
 
 
 ## Things I've learned 
 
-* How to **structure code** and keep it organized by applying **three modular** constructing approach (**UI module**, **budget module** and **global module**), where:
+* How to **structure code** and keep it organized by applying **three modular** building approach (*UI module*, *budget module* and *global module*), where:
 
-    * **UI module** includes code related to the *User Interface manipulations*, which decides what *to display to the user*. 
+    * **UI module** includes code related to the *User Interface* and its manipulations. Decides what *to display to the user*. 
     
-    * **Budget module** does *budget calculations* and *numbers shuffling*. All that is done **behind the scenes**.
+    * **Budget module** does *budget calculations* and *numbers shuffling* **behind the scenes**.
     
-    * **Global module** is the *intermediate module*, **establishes the connection** between *UI* and *budget modules*. 
+    * **Global module** is the *intermediate module*, **establishes the connection** between *UI module* and *budget module*. 
 
-* While doing this project I got familiar with **four core principles of OOP**(Object Oriented Programming):
+* During this project I became familiar with **four core principles of OOP** (Object Oriented Programming):
 
     * **Encapsulation**, which is here expressed by *Immediately Invoked Function Expressions*. 
     
