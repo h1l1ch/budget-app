@@ -16,7 +16,7 @@ My first project, built with HTML, CSS and JavaScript ES5. Budget app accepts nu
 
 ## How to launch
 
-* Need **final version**? Simply check link of the app. It is *in the header* next to the *description*. 
+* Need **final version**? Simply check *link* in the *description*. 
 
 * To launch **development code** download *zip file* on your computer and then open *index.html file*.
 
