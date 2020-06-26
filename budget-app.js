@@ -84,15 +84,15 @@ var budgetModule = (function () {
         percentage: -1
     };
 
-    var calculateTotal = function (type) {
-        var sum = 0;
+        var calculateTotal = function (type) {
+            var sum = 0;
 
-        data.types[type].forEach(function(cur){
-            sum += cur.value;
-        });
+            data.types[type].forEach(function(cur){
+                sum += cur.value;
+            });
 
-        data.totals[type] = sum;
-    };
+            data.totals[type] = sum;
+        };
 
     return {
 
@@ -131,7 +131,6 @@ var budgetModule = (function () {
             data.types.exp.forEach(function (cur){
                 cur.calculatePercentage();
             });
-            //console.log(data.types.exp)
         },
 
         getPercentages: function () {
